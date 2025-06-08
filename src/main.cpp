@@ -41,9 +41,9 @@ int main() {
     return window(
 		  text("  Current path: " + current_path.string() + "  "),
 		  hbox({
-		      previous_menu->Render() | frame | flex | size(HEIGHT, EQUAL, 20),
-		      local_menu   ->Render() | frame | flex | size(HEIGHT, EQUAL, 20),
-		      next_menu    ->Render() | frame | flex | size(HEIGHT, EQUAL, 20),
+		      previous_menu->Render() | frame | flex | size(HEIGHT, EQUAL, 40),
+		      local_menu   ->Render() | frame | flex | size(HEIGHT, EQUAL, 40),
+		      next_menu    ->Render() | frame | flex | size(HEIGHT, EQUAL, 40),
 		    })   
 		  );
   });
